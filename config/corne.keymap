@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans   &trans          &trans          &trans           &trans  &kp DELETE
-&bt BT_CLR      &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans   &trans          &kp UP          &trans           &trans  &trans
-&bt BT_CLR_ALL  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-                                      &kp LGUI      &trans        &kp SPACE     &kp RET  &trans          &kp RALT
+&kp ESC        &kp F1     &kp F2         &kp F3                &kp F4                 &kp F5         &kp EQUAL      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_DIVIDE    &kp BACKSPACE
+&kp LA(GRAVE)  &kp LG(E)  &kp LC(LG(T))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY  &kp DELETE
+&trans         &kp TAB    &kp MINUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp SEMICOLON  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp TAB
+                                         &kp LEFT_ALT          &trans                 &kp SPACE      &kp RET        &trans        &kp NUMBER_0
             >;
         };
 
