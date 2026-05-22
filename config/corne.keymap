@@ -13,8 +13,9 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
+            bindings = <&kp LA(F4)>;
+            key-positions = <12 0>;
+            layers = <1>;
         };
 
         combo_del {
